@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<addon scheme="2.0">
+    <id>currency_countries</id>
+    <name>Currency countries</name>
+    <description>You can define country code for currencies, and it will add the flags to the display</description>
+    <version>1.0</version>
+    <priority>1</priority>
+    <position>0</position>
+    <status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <language_variables>
+        <item lang="en" id="block_currencies_with_flag">Currencies with flags</item>
+        <item lang="en" id="block_currencies_with_flag_description">Add flags with the defined language sign</item>
+        <item lang="en" id="country_code">Second language variable</item>
+    </language_variables>
+    <queries>
+
+        <item for="install">
+        ALTER TABLE  `?:currencies` ADD  `country_code` VARCHAR( 2 ) NOT NULL DEFAULT  'us' AFTER  `decimals`
+        </item>
+
+        <item for="uninstall">ALTER TABLE `?:currencies` DROP `country_code`</item>
+    </queries>
+</addon>
