@@ -1,4 +1,4 @@
-Currency countris CS-Cart Add-on
+Currency countries CS-Cart Add-on
 =================================
 
 You can define language codes for currencies, and display them in the currency selector block.
