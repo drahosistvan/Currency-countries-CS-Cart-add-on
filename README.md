@@ -22,3 +22,7 @@ All of the default CS-Cart flags are available, for more information, please che
 **Replace the block**
 
 In the block manager, you can find a new block type. Add this type, and enjoy the result.
+
+**Compatibility**
+
+This Add-on is designed for CS-Cart 4.0.x
