@@ -12,7 +12,7 @@
     <language_variables>
         <item lang="en" id="block_currencies_with_flag">Currencies with flags</item>
         <item lang="en" id="block_currencies_with_flag_description">Add flags with the defined language sign</item>
-        <item lang="en" id="country_code">Second language variable</item>
+        <item lang="en" id="country_code">Country code</item>
     </language_variables>
     <queries>
 
